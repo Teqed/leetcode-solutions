@@ -1,0 +1,21 @@
+[package]
+name = "leetcode-solutions"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "217-contains-duplicate"
+path = "src/easy/217-contains-duplicate/rust/mod.rs"
+
+[[bin]]
+name = "242-valid-anagram"
+path = "src/easy/242-valid-anagram/rust/mod.rs"
+
+[[bin]]
+name = "1-two-sum"
+path = "src/easy/1-two-sum/rust/mod.rs"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
