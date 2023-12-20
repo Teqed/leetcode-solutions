@@ -4,17 +4,17 @@ struct Solution;
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         if nums.len() == 2 {
-            return vec![0, 1];
+            return vec![1, 0];
         }
-        let mut set = HashSet::new();
+        let mut number_collection = HashSet::new();
         for (i, num) in nums.iter().enumerate() {
-            let diff = target - num;
-            if set.contains(&diff) {
-                return vec![i as i32, nums.iter().position(|&x| x == diff).unwrap() as i32];
+            let complement = target - num;
+            if number_collection.contains(&complement) {
+                return vec![i as i32, nums.iter().position(|&x| x == complement).unwrap() as i32];
             }
-            set.insert(num);
+            number_collection.insert(num);
         }
-        vec![] // Return an empty vector for the case when the loop has zero elements to iterate on
+        vec![]
     }
 }
 
@@ -31,8 +31,16 @@ mod tests {
 
     #[test]
     fn test_1() {
-        assert!(!Solution::two_sum(vec![2,7,11,15], 9));
-        assert!(!Solution::two_sum(vec![3,2,4], 6));
-        assert!(!Solution::two_sum(vec![3,3], 6));
+        assert_eq!(Solution::two_sum(vec![2,7,11,15], 9), vec![1, 0]);
+    }
+
+    #[test]
+    fn test_2() {
+        assert_eq!(Solution::two_sum(vec![3,2,4], 6), vec![2, 1]);
+    }
+
+    #[test]
+    fn test_3() {
+        assert_eq!(Solution::two_sum(vec![3,3], 6), vec![1, 0]);
     }
 }
