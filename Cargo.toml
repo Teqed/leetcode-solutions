@@ -15,6 +15,10 @@ path = "src/easy/242-valid-anagram/rust/mod.rs"
 name = "1-two-sum"
 path = "src/easy/1-two-sum/rust/mod.rs"
 
+[[bin]]
+name = '49-group-anagrams'
+path = 'src/medium/49-group-anagrams/rust/mod.rs'
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
