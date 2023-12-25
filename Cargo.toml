@@ -35,6 +35,9 @@ path = 'src/easy/1422-maximum-score-after-splitting/rust/mod.rs'
 name = '1758-minimum-changes-to-make-alternating'
 path = 'src/easy/1758-minimum-changes-to-make-alternating/rust/mod.rs'
 
+[[bin]]
+name = '91-decode-ways'
+path = 'src/medium/91-decode-ways/rust/mod.rs'
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
