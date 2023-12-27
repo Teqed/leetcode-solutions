@@ -39,6 +39,14 @@ path = 'src/easy/1758-minimum-changes-to-make-alternating/rust/mod.rs'
 name = '91-decode-ways'
 path = 'src/medium/91-decode-ways/rust/mod.rs'
 
+[[bin]]
+name = '238-product-of-array-except-self'
+path = 'src/medium/238-product-of-array-except-self/rust/mod.rs'
+
+[[bin]]
+name = '1578-minimum-time-to-make-rope-colorful'
+path = 'src/medium/1578-minimum-time-to-make-rope-colorful/rust/mod.rs'
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
