@@ -51,6 +51,9 @@ path = 'src/medium/1578-minimum-time-to-make-rope-colorful/rust/mod.rs'
 name = '20-valid-parentheses'
 path = 'src/easy/20-valid-parentheses/rust/mod.rs'
 
+[[bin]]
+name = '1897-redistribute-characters-to-make-all-strings-equal'
+path = 'src/easy/1897-redistribute-characters/rust/mod.rs'
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
