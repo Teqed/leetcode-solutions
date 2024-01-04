@@ -3,7 +3,10 @@ struct Solution;
 impl Solution {
     pub fn max_score(s: String) -> i32 {
         let (mut result, mut zeros, mut ones) = (
-            0, 0, s.chars().filter(|&character| character == '1').count() as i32);
+            0,
+            0,
+            s.chars().filter(|&character| character == '1').count() as i32,
+        );
         for (_i, character) in s.chars().enumerate().take(s.len() - 1) {
             match character {
                 '0' => zeros += 1,

@@ -11,7 +11,11 @@ impl Solution {
 }
 
 fn main() {
-    let input0 = vec![String::from("abc"), String::from("aabc"), String::from("bc")];
+    let input0 = vec![
+        String::from("abc"),
+        String::from("aabc"),
+        String::from("bc"),
+    ];
     let input1 = vec![String::from("ab"), String::from("a")];
     let output0 = Solution::make_equal(input0);
     let output1 = Solution::make_equal(input1);

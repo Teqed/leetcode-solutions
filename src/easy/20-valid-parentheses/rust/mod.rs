@@ -6,9 +6,21 @@ impl Solution {
         for c in s.chars() {
             match c {
                 '(' | '[' | '{' => stack.push(c),
-                ')' => if stack.pop() != Some('(') { return false; },
-                ']' => if stack.pop() != Some('[') { return false; },
-                '}' => if stack.pop() != Some('{') { return false; },
+                ')' => {
+                    if stack.pop() != Some('(') {
+                        return false;
+                    }
+                }
+                ']' => {
+                    if stack.pop() != Some('[') {
+                        return false;
+                    }
+                }
+                '}' => {
+                    if stack.pop() != Some('{') {
+                        return false;
+                    }
+                }
                 _ => unreachable!(),
             }
         }

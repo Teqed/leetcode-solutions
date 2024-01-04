@@ -7,7 +7,7 @@
     clippy::style,
     clippy::suspicious,
     clippy::unwrap_used,
-    clippy::question_mark_used,
+    clippy::question_mark_used
 )]
 
 struct Solution;
@@ -17,7 +17,7 @@ impl Solution {
         g.sort_unstable();
         s.sort_unstable();
         let (mut content_children, mut j) = (0, g.len() - 1);
-        for i in (0 .. s.len()).rev() {
+        for i in (0..s.len()).rev() {
             while j < g.len() && g[j] > s[i] {
                 j -= 1;
             }

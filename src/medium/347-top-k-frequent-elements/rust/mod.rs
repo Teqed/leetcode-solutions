@@ -21,7 +21,7 @@ impl Solution {
                 }
             }
         }
-        
+
         result
     }
 }

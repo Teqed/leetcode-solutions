@@ -3,7 +3,11 @@ struct Solution;
 impl Solution {
     pub fn min_operations(s: String) -> i32 {
         let count = s.chars().enumerate().fold(0, |a, (index, character)| {
-            if character == (if index % 2 == 0 { '0' } else { '1' }) { a + 1 } else { a }
+            if character == (if index % 2 == 0 { '0' } else { '1' }) {
+                a + 1
+            } else {
+                a
+            }
         });
         std::cmp::min(count, s.len() as i32 - count)
     }
