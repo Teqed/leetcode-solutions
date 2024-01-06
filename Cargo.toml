@@ -67,6 +67,11 @@ path = 'src/medium/2125-number-of-laser-beams/rust/mod.rs'
 name = '2870-minimum-number-of-operations-to-make-array-empty'
 path = 'src/medium/2870-minimum-number-of-operations-to-make-array-empty/rust/mod.rs'
 
+[[bin]]
+name = '1235-maximum-profit-in-job-scheduling'
+path = 'src/hard/1235-maximum-profit-in-job-scheduling/rust/mod.rs'
+
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
