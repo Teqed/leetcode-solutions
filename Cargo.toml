@@ -75,6 +75,10 @@ path = 'src/hard/1235-maximum-profit-in-job-scheduling/rust/mod.rs'
 name = '938-range-sum-of-bst'
 path = 'src/easy/938-range-sum-of-bst/rust/mod.rs'
 
+[[bin]]
+name = '36-valid-sudoku'
+path = 'src/medium/36-valid-sudoku/rust/mod.rs'
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
