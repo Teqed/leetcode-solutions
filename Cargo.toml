@@ -71,6 +71,10 @@ path = 'src/medium/2870-minimum-number-of-operations-to-make-array-empty/rust/mo
 name = '1235-maximum-profit-in-job-scheduling'
 path = 'src/hard/1235-maximum-profit-in-job-scheduling/rust/mod.rs'
 
+[[bin]]
+name = '938-range-sum-of-bst'
+path = 'src/easy/938-range-sum-of-bst/rust/mod.rs'
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
