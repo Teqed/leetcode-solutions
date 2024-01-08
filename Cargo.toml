@@ -79,6 +79,11 @@ path = 'src/easy/938-range-sum-of-bst/rust/mod.rs'
 name = '36-valid-sudoku'
 path = 'src/medium/36-valid-sudoku/rust/mod.rs'
 
+[[bin]]
+name = '271-encode-and-decode-strings'
+path = 'src/medium/271-encode-and-decode-strings/rust/mod.rs'
+
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
