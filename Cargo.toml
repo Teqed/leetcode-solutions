@@ -91,6 +91,9 @@ path = 'src/medium/128-longest-consecutive-sequence/rust/mod.rs'
 name = '872-leaf-similar-trees'
 path = 'src/easy/872-leaf-similar-trees/rust/mod.rs'
 
+[[bin]]
+name = '287-find-the-duplicate'
+path = 'src/medium/287-find-the-duplicate-number/rust/mod.rs'
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
