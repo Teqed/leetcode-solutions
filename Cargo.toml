@@ -95,6 +95,9 @@ path = 'src/easy/872-leaf-similar-trees/rust/mod.rs'
 name = '287-find-the-duplicate'
 path = 'src/medium/287-find-the-duplicate-number/rust/mod.rs'
 
+[[bin]]
+name = '992-subarrays-with-k-different-integers'
+path = 'src/hard/992-subarrays-with-k-different-integers/rust/mod.rs'
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
