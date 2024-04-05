@@ -99,6 +99,10 @@ path = 'src/medium/287-find-the-duplicate-number/rust/mod.rs'
 name = '992-subarrays-with-k-different-integers'
 path = 'src/hard/992-subarrays-with-k-different-integers/rust/mod.rs'
 
+[[bin]]
+name = '1544-make-the-string-great'
+path = 'src/easy/1544-make-the-string-great/rust/mod.rs'
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
